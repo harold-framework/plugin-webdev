@@ -1,0 +1,3 @@
+<div class="droplet-close" onclick="hideDroplet('disco');">X</div>
+<header id="disco-header" class="disabled">Disco</header>
+<div id="disco-workspace" class="droplet-workspace"></div>

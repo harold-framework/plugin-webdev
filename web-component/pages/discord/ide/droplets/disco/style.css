@@ -1,0 +1,10 @@
+#disco {    
+    width: 50vw;
+    height: 50vh;
+    
+    min-width: 10vw;
+    min-height: 25vh;
+}
+#disco-workspace {
+    width: 100%;
+}

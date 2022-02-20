@@ -1,0 +1,15 @@
+#var-inspection {
+    z-index: 9;
+    background-color: #1e1e1e;
+    
+    width: 50vw;
+    height: 50vh;
+    
+    min-width: 10vw;
+    min-height: 25vh;
+}
+#var-inspection-view {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+}

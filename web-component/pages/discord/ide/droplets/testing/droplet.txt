@@ -1,0 +1,5 @@
+<div class="droplet-close" onclick="hideDroplet('testing');">X</div>
+<header id="testing-header" class="disabled">Testing</header>
+<div id="testing-workspace" class="droplet-workspace">
+    big fat boobies
+</div>

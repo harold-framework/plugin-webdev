@@ -1,0 +1,11 @@
+<div class="droplet-close" onclick="hideDroplet('api-logs');">X</div>
+<header id="api-logs-header" class="disabled">API Logs</header>
+<div id="api-logs-workspace" class="droplet-workspace">
+    <table id="api-logs-view">
+        <tr class="api-log">
+            <th>Time</th>
+            <th>IP</th>
+            <th>Path</th>
+        </tr>
+    </table>
+</div>

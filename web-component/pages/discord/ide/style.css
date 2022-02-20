@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow: hidden;
+    background-color: #1e1e1e;
+}
+
+/* Define spaces */
+#workspace {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#mobilespace {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#terminalspace {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    flex: 100%;
+    order: 3;
+}
+
+/* Droplet specific */
+#droplets {
+    width: 100vw;
+    height: 100vh;
+    background-color: #1e1e1e;
+}
+.droplet {
+    display: none;
+    background-color: #1e1e1e;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    border: 1px solid #d3d3d3;
+}
+.droplet header {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #323435;
+    color: #fff;
+    text-align: center;
+}
+.droplet-close {
+    position: absolute;
+    background-color: red;
+    color: white;
+    top: -1;
+    right: 0;
+    border: 1px solid white;
+    cursor: default;
+}
+.droplet-workspace {
+    width: 100%;
+    height: calc(100% - 38px);
+}
+
+/* Resizing */
+.resizer {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    cursor: se-resize;
+}
+
+/* Loading popup */
+#loading {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+/* Mobile specific CSS */
+#goose {
+    width: 90%;
+    height: 60%;
+}
+#goose img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+#info {
+    padding-top: 15px;
+    color: white;
+    text-align: center;
+}
+#info p {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* Resizer bars */
+#vertical_resizer {
+    position: fixed;
+    background-color: #2d2a2a;
+    cursor: col-resize;
+    z-index: 1;
+    width: 0.5vw;
+    left: 49.5vw;
+}
+#horizontal_resizer {
+    top: 25px;
+    position: fixed;
+    background-color: #2d2a2a;
+    cursor: row-resize;
+    z-index: 1;
+    top: 0;
+    width: 100vw;
+}
+
+/* Disabled div content */
+div.blury {
+    filter: blur(5px);
+}
+div.disabled { 
+    pointer-events: none; 
+    -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; 
+    user-select: none;
+}
+div.disabled *:focus { outline: 0; };
+div.disabled * { filter: blur(2px); };
+
+/* Misc */
+pre, body {
+    margin: 0;
+    margin: 0;
+}
+pre, .cmd {
+    line-height: 14px;
+    font-size: 12px;
+}

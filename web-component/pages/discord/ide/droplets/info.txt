@@ -1,0 +1,12 @@
+Droplets are simply html files that are loaded into divs in the main page.
+Any code inside of 'droplet.html' are loaded into divs in the 'droplets' div.
+The divs are then set with the id of the name of the droplet.
+
+Each droplet should respect the following layout.
+A '*' marks required files:
+
+    *droplet.html
+    droplet.js
+    style.css
+
+The 'droplet.js' and 'style.css' files are loaded after the 'droplet.html' div is loaded.

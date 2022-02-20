@@ -1,0 +1,5 @@
+<div class="droplet-close" onclick="hideDroplet('var-inspection');">X</div>
+<header id="var-inspection-header" class="disabled">Variable Inspection</header>
+<div id="var-inspection-workspace" class="droplet-workspace">
+    <div id="var-inspection-view"></div>
+</div>

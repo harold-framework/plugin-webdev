@@ -1,0 +1,39 @@
+/* Styles for the API logs */
+#api-logs {
+    background-color: black;
+    
+    width: 50vw;
+    height: 50vh;
+    
+    min-width: 10vw;
+    min-height: 25vh;
+}
+#api-logs-workspace {
+    background-color: black;
+    overflow: auto;
+    
+    width: 100%;
+}
+#api-logs-view {
+    width: 100%;
+}
+
+#api-logs-view table {
+    color: white;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+.api-log {
+    color: white;
+}
+.api-log td, th {
+    color: white;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+.api-log tr:nth-child(even) {
+    color: white;
+    background-color: #dddddd;
+}

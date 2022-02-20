@@ -1,0 +1,10 @@
+#testing {
+    width: 50vw;
+    height: 50vh;
+    
+    min-width: 10vw;
+    min-height: 25vh;
+}
+#testing-workspace {
+    width: 100%;
+}
